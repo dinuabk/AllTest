@@ -21,9 +21,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <service
             android:name=".NetworkService"
             android:enabled="true" />
+
+        <activity android:name=".TestActivity" />
+        <activity android:name=".Test2Activity" />
     </application>
 
 </manifest>
